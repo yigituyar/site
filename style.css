@@ -1,11 +1,35 @@
-.footer{
-    background-color: blue;
-    color: aliceblue;
+footer{
+    height: 100px;
+    background-color: rgb(33, 33, 78);
+     padding-left: 120px;
+     padding-bottom: 20px;
+     position:inherit;
+}
+footer a{
+    color: rgb(255, 255, 255) !important;
+  
+}
+.contacts{
+    
+    border: 2px black solid;
+    
+    height: 95px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.social{
+    border: 2px black solid;
+    width: 200px;
+    height: 95px;
+}
+footer div{
+
+    display: inline-block;
 }
 header{
     position: fixed;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(19, 19, 53);
     padding-top: 10px;
     display: inline-block;
     width: 100%;
@@ -54,7 +78,7 @@ p{
  }
 
 
-ul{
+.navbar ul{
     padding: 0;
     background: rgb(48, 48, 48);
     margin-top: 60px;
@@ -66,20 +90,22 @@ ul{
 }
 
 
-li{
+.navbar li{
     padding: auto;
     text-decoration: none;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     
 }
-li{ 
-    color: black;
+.navbar li{ 
+    color: rgb(219, 219, 219);
     padding: 10px;
+    padding-top: 30px;
+    text-align: left;
 }
-li:hover{
+.navbar li:hover{
     background-color: rgb(63, 63, 63);
     
     color: white;
@@ -87,6 +113,6 @@ li:hover{
 }
 
 .icerik{
-    margin-top: 80px;
+    padding-top: 80px;
     margin-left: 200px;
 }
