@@ -1,0 +1,122 @@
+.baslik{border-style: double;}
+
+content > *{
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid rgb(0, 0, 0);
+    
+    color: rgb(0, 0, 0);
+}
+body{
+    padding:0;
+    margin: 0;
+    background-color: #d3addd;
+}
+.logo{
+        margin-bottom: 20px;
+}
+header{
+    background-color:#7858A6 ;
+    font-size: 50px;text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0;
+    padding-bottom: 0px;
+    margin: 0;
+    }
+.navbar{
+    position:absolute;
+    height: 85%;
+    
+    background-color:  #5B4B8A;
+    width: 150px;}
+    
+.content{
+   border: red solid 3px;
+   height: 1000px;
+}
+
+ul{
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.navbar li {
+    border-bottom: 1px solid wheat;
+    padding:10px;
+}
+.navbar li > * {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+.navbar li:hover{
+    padding:10px;
+    background-color: #543972;
+    
+    color: black;
+}
+footer{
+    position:fixed;
+   bottom: 0;
+   width: 100%;
+   height: 70px;
+   font-size: xx-large;
+    background-color:  #573f72;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 40%;
+}
+footer li{
+    text-align: center;
+        display: inline-block;
+
+}
+.cerceve{
+    background-color:#4C3575;
+   margin-top:  10px;
+   margin-left:  30%;
+   width: 800px;
+   height: 900px;
+   padding-top: 40px    ;border-radius: 40px;
+}
+.giris{
+    padding: 30px;
+    padding-top: 80px;
+    padding-right: 90px;
+    margin-top:  50px;
+   margin-left:  20%;
+   background-color: #7858A6 ;
+    width: 330px;
+   height: 200px;
+   text-align: right;
+   margin-right: 10px;
+   border-radius: 20px;
+}
+.galeri{
+    margin-top:  50px;
+   margin-left:  11%;
+   background-color:  #7858A6;
+   width: 560px;
+   height: 420px;
+   padding: 10px;
+   padding-left: 30px;
+   text-align: center;
+   word-spacing: 50px;
+   border-radius: 20px;
+   
+}
+
+.galeri a{
+    text-align: center;
+    border:3px solid #4C3575;
+    background-color: #4C3575 ;
+    color: aliceblue;
+    text-decoration: none;
+}
+.galeri iframe{
+
+    border-radius: 5px ;
+    text-align: center;
+    margin-left: 55px;
+}
